@@ -1,0 +1,17 @@
+{
+  "client_id": "https://raw.githubusercontent.com/xradeon/RevoTrack-MCP-Metadata/main/codex-flespi-development-client.json",
+  "client_name": "RevoTrack Codex Development",
+  "client_uri": "https://github.com/xradeon/RevoTrack-MCP-Metadata",
+  "application_type": "native",
+  "redirect_uris": [
+    "http://127.0.0.1/callback/eVq6UHVdTfXB"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "token_endpoint_auth_method": "none"
+}
