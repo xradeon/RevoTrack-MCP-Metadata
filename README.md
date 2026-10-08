@@ -7,6 +7,9 @@ These files are intentionally public. They identify OAuth clients and their call
 ## Contents
 
 - `codex-flespi-development-client.json`: CIMD for Codex access to the RevoTrack Flespi Development realm.
+- `claude-flespi-development-client.json`: CIMD for Claude Code access to the same realm. Fixed callback `http://localhost:47213/callback`, matching `oauth.callbackPort` in `RevoTrack-Workspace/.mcp.json`.
+
+Each file's `client_id` is its own raw GitHub URL, so a file must be pushed to `main` before its client can sign in, and the realm must list that URL among its allowed clients. Changing a callback means changing both the CIMD and the client configuration.
 
 ## Security
 
